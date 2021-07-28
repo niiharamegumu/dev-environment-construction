@@ -49,10 +49,11 @@
     "image_text": {
       "type": "image-with-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "button": {
+          "type": "button",
           "settings": {
-            "heading": "Image with text"
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
         "text": {
@@ -61,18 +62,17 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "button": {
-          "type": "button",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Image with text"
           }
         }
       },
       "block_order": [
-        "heading",
+        "button",
         "text",
-        "button"
+        "heading"
       ],
       "settings": {
         "height": "adapt",
